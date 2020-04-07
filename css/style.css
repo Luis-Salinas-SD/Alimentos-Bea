@@ -99,10 +99,17 @@ a:hover,a:focus,a:visited{
 h1,h2,h3,h4,h5,h6 {
 	position:relative;
 	font-family: 'Grand Hotel', cursive;
-	font-weight:normal;
-	margin:0px;
+ 	font-weight:normal;
+ 	margin:0px;
 	background:none;
 	line-height:1.6em;
+}
+.font{
+    
+
+    font-family: 'Nunito', sans-serif;
+
+
 }
 
 input,button,select,textarea{
