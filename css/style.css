@@ -104,14 +104,12 @@ h1,h2,h3,h4,h5,h6 {
 	background:none;
 	line-height:1.6em;
 }
-.font{
-    
+.fuente{
 
-    font-family: 'Nunito', sans-serif;
 
+    font-family: 'Comic Neue', cursive;
 
 }
-
 input,button,select,textarea{
 	font-family: 'Roboto Slab', sans-serif;
 }
