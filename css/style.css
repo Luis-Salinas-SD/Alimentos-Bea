@@ -105,15 +105,16 @@ h1,h2,h3,h4,h5,h6 {
 	line-height:1.6em;
 }
 .fuente{
-
-
     font-family: 'Comic Neue', cursive;
-
 }
 input,button,select,textarea{
 	font-family: 'Roboto Slab', sans-serif;
 }
-
+.blanch{
+  background-color: #ffffff;
+  width:100%;
+  height: 100px;
+}
 p{
 	position:relative;
 	line-height:1.8em;	
@@ -298,7 +299,7 @@ ul,li{
 
 img{
 	display:inline-block;
-	max-width: 480px;
+	max-width: 420px;
 	height:auto;	
 }
 
@@ -1182,7 +1183,7 @@ img{
 	top:0px;
 	width:100%;
 	height:80px;
-	background:url(../images/icons/icon-crops.png) center top no-repeat;
+	background:url(../images/icons/mexico.png) center top no-repeat;
 }
 
 .sec-title-one:after{
@@ -1236,7 +1237,7 @@ img{
 
 .intro-section{
 	position:relative;
-	background:url(../images/background/pattern-one.png) center center no-repeat;
+	background:url(../images/background/fondo-0.jpg) center center no-repeat;
 	background-size:cover;
 	z-index:12;
 }
@@ -1248,7 +1249,7 @@ img{
 	top:0px;
 	width:100%;
 	height:100%;
-	background:rgba(244,238,222,0.94);	
+	background: rgba(152, 189, 17, 0.40); 
 }
 
 .intro-section .inner-part{
@@ -1277,7 +1278,7 @@ img{
 	margin-right:-110px;
 	width:570px;
 	height:510px;
-	background:url(../images/resource/crop-image-left.png) center top no-repeat;
+	background:url(../images/resource/agave.png) center top no-repeat;
 	z-index:1;
 }
 
@@ -1289,7 +1290,7 @@ img{
 	margin-left:-110px;
 	width:570px;
 	height:510px;
-	background:url(../images/resource/crop-image-right.png) center top no-repeat;
+	background:url(../images/resource/agave.png) center top no-repeat;
 	z-index:1;
 }
 
@@ -1584,7 +1585,8 @@ img{
 	top:0px;
 	width:100%;
 	height:100%;
-	background:rgba(94,199,156,0.94);	
+	/* background:rgba(94,199,156,0.94); */	
+	background:rgb(91, 94, 15, 0.80);
 }
 
 .fluid-section-one .right-column:before{
@@ -1594,7 +1596,7 @@ img{
 	top:0px;
 	width:100%;
 	height:100%;
-	background:rgba(245,176,98,0.94);	
+	background:rgba(151, 189, 17,0.80);	
 }
 
 .fluid-section-one h3{
@@ -1798,7 +1800,7 @@ img{
 .deal-of-day{
 	position:relative;
 	padding:120px 0px 100px;
-	background:url(../images/background/pattern-one.png) center center no-repeat;
+	background:url(../images/background/fondo-0.jpg) center center no-repeat;
 	background-size:cover;
 }
 
