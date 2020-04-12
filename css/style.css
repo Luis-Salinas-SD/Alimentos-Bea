@@ -2109,8 +2109,8 @@ img{
 .testimonial-section .carousel-outer{
 	position:relative;
 	padding:0px 0px;
-	max-width:860px;
-	margin:0 auto;
+	max-width:880px;
+	margin:-50px auto;
 	text-align:center;
 	z-index:1;
 }
