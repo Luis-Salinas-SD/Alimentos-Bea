@@ -6064,3 +6064,49 @@ ul.bullet > li{
 	text-align: justify;
 	text-justify: inter-word;
 }
+
+.sec {
+	font-size: 150%;
+}
+.social-bar{
+	position: fixed;
+	right: 0;
+	top: 70%;
+	font-size: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	z-index: 100;
+	
+}
+
+.iconn{
+	color: white;
+	text-decoration: none;
+	padding: 20px;
+	display: flex;
+	transition: all .5s;
+	
+	
+}
+.icon-facebook{
+background-color: #4064ac;	
+}
+.icon-twitter{
+	background-color: #1c9be9;
+}
+.icon-youtube{
+	background-color: #e71b1a;
+}
+.iconn:first-child{
+	border-radius: 1rem 0 0;
+}
+
+.iconn:last-child{
+	border-radius: 0 0 0 1rem;
+}
+ .iconn:hover{
+	 padding-right: 3rem;
+	 border-radius: 1rem 0 0 1rem;
+	 box-shadow: 0 0 .5rem rgb(0,0,0,0.45);
+ }

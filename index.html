@@ -15,6 +15,8 @@
 <link href="css/responsive.css" rel="stylesheet">
 <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
 <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+<!-- Social-icons -->
+<link rel="stylesheet" href="social-icon/style-icons.css">
 <!-- Fuente de los Titulos (fontsize) -->
 <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital@1&display=swap" rel="stylesheet">
 </head>
@@ -62,7 +64,7 @@
                                             <li><a href="blog-single.html">Blog Single</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="#">Contactanos</a></li>
+                                    
                                  </ul>
                             </div>
                         </nav><!-- Main Menu End-->
@@ -153,7 +155,7 @@
     </section>
     <!-- / Menú Desplegable para mobiles Fin -->
     
-    <!--Main Slider -->
+    <!--Slider - Principal-->
     <section class="main-slider" id="scroll-section-one" data-start-height="900" data-slide-overlay="yes">
     	
         <div class="tp-banner-container">
@@ -300,9 +302,10 @@
             </div>
         </div>
     </section>
+    <!--/ Slider - Principal-->
     
     
-    <!--Bienvenidos-->
+    <!--Seccion-Bienvenidos-->
     <section class="intro-section">
     	<div class="inner-part">
         	<div class="auto-container">
@@ -340,6 +343,8 @@
             </div>
         </div>
     </section>
+    <!-- /Seccion-Bienvenidos-->
+    
     
     <!--LOGROS 2019 - 2018 -2017 -->
     <section class="about-farm" id="logros" >
@@ -363,10 +368,10 @@
                                 <!--Tab Buttons-->
                                 <ul class="tab-buttons clearfix">
                                     <!-- <li class="tab-btn" data-tab="#tab-one"><span class="txt">2012</span></li> -->
-                                    <li class="tab-btn" data-tab="#tab-two"><span class="txt">2014</span></li>
+                                    <li class="tab-btn active-btn" data-tab="#tab-two"><span class="txt">2014</span></li>
                                     <li class="tab-btn" data-tab="#tab-three"><span class="txt">2017</span></li>
                                     <li class="tab-btn" data-tab="#tab-four"><span class="txt">2018</span></li>
-                                    <li class="tab-btn active-btn" data-tab="#tab-five"><span class="txt">2019</span></li>
+                                    <li class="tab-btn" data-tab="#tab-five"><span class="txt">2019</span></li>
                                 </ul>
                             </div>
                             
@@ -375,7 +380,7 @@
                                 <div class="tabs-content">
                                     
                                     <!--Tab-->
-                                    <div class="tab" id="tab-one">
+                                    <div class="tab active-tab" id="tab-one">
                                     	<h3>2012</h3>
                                         <div class="content">
                                         	<p>Participación en la convocatoria: “Programa de atención legal a jóvenes inventores, 2012” del Consejo Mexiquense de Ciencia y Tecnología
@@ -415,7 +420,7 @@
                                         
                                     </div>
 
-                                    <div class="tab active-tab" id="tab-five">
+                                    <div class="tab" id="tab-five">
                                     	<h3>2019</h3>
                                         <div class="content">
                                         	<p>En 2019, se firmó el Convenio de Colaboración Académica por el Centro de Desarrollo de Productos Bióticos del Instituto Politécnico Nacional (CeProBi-IPN) y Alimentos Funcionales BEA, S de R L de C V.</p>
@@ -435,10 +440,11 @@
             
         </div>
     </section>
+    <!-- / LOGROS 2019 - 2018 -2017 -->
     
     
-    <!--Gelyfun vs Agavien-->
-    <section class="fluid-section-one" id="productos">
+    <!--Gelyfun & Agavien-->
+    <section class="fluid-section-one">
     	<div class="oval-cut"></div>
         
         <!--FLoated Image Left-->
@@ -478,15 +484,19 @@
             </div>	
             
         </div>
-    </section>
+    </section >
+    <!-- / Gelyfun & Agavien-->
     
-    
-<section class="blanch">
+    <!-- Seccion en balnco -->
+    <section class="blanch" >
+<div id="productos">
 
-</section>
+</div>
+    </section>
+    <!-- / Seccion en blanco -->
     
-    <!--Productos -->
-    <section class="deal-of-day" id="productos">
+    <!--Productos Agavien y Gelyfun-->
+    <section class="deal-of-day" >
     	<div class="auto-container">
         	
             <!--Title Box-->
@@ -551,6 +561,8 @@
             
         </div>
     </section>
+    <!-- / Productos Agavien y Gelyfun-->
+    
     
     <!--Nuestro Equipo-->
     <section class="team-section">
@@ -635,6 +647,7 @@
             </div>
         </div>
     </section>
+    <!-- / Nuestro Equipo-->
     
     <!--Testimoniales-->
     <section class="testimonial-section">
@@ -654,12 +667,11 @@
                     <div class="slide-item">
                         <div class="quote-info">
                         	<figure class="author-thumb img-circle"><img class="img-circle" src="images/resource/img01.1.png" alt=""></figure>
-                            <h4>Adam Gilchrist</h4>
+                            <h5 class="sec">Asociación Mexicana de Gastroenterología</h5>
                             <div class="designation">CEO / Founder</div>
                         </div>
                     	<div class="text-content"><h3 class="fuente">
-                            El síndrome del intestino irritable, mejor conocido como colitis y el estreñimiento son dos de los trastornos funcionales intestinales 
-                            más comunes en la población mexicana.</h3>
+                            El síndrome del intestino irritable, mejor conocido como colitis y el estreñimiento son dos de los trastornos funcionales intestinales más comunes en la población mexicana.</h3>
                         </div>
                         
                     </div>
@@ -668,13 +680,10 @@
                     <div class="slide-item">
                     	<div class="quote-info">
                         	<figure class="author-thumb img-circle"><img class="img-circle" src="images/resource/img01.1.png" alt=""></figure>
-                            <h4>Adam Gilchrist</h4>
+                            <h4>Asociación Mexicana de Gastroenterología</h4>
                             <div class="designation">CEO / Founder</div>
                         </div>
-                        <div class="text-content"><h3 class="f-1">En 2016, la colitis en México, llegó a afectar hasta el 35 % de la población, mientras que el 
-                            estreñimiento afecto hasta el 22% de la población según datos de la Asociación Mexicana de Gastroenterología, en 2018.El tratamiento 
-                            inicial recomendada tanto para Colitis como para estreñimiento, es mediante las medidas higiénico dietéticas (no farmacológicas), de 
-                            no tener resultados positivos, se incluyen los tratamientos farmacológicos entre otros</h3></div>
+                        <div class="text-content"><h3 class="f-1">En 2016, la colitis en México, llegó a afectar hasta el 35 % de la población, mientras que el estreñimiento afecto hasta el 22% de la población según datos de la Asociación Mexicana de Gastroenterología, en 2018.</h3></div>
                         </div>
                     
                     <!--Slide Item-->
@@ -682,24 +691,25 @@
                     	
                         <div class="quote-info">
                         	<figure class="author-thumb img-circle"><img class="img-circle" src="images/resource/B1.png" alt=""></figure>
-                            <h4>Adam Gilchrist</h4>
+                            <h4>Bea Alimentos</h4>
                             <div class="designation">CEO / Founder</div>
                         </div>
                         <div class="text-content"><h3 class="f-1">Gelyfun® y Agávien® están incluidas en las medidas higiénico-dietética, sin los efectos secundarios del tratamiento farmacológico de acuerdo con lo informado por la Secretaría de Salud (SSA) la recomendación diaria de ingesta de fibra es de 30 gramos, sin embargo, también reportó que los adultos en México</h3></div>
                     </div>
                     <div class="slide-item">
-                    	<div class="text-content"><h3 class="f-1">El tratamiento inicial recomendada tanto para Colitis como para estreñimiento, es mediante las medidas higiénico dietéticas (no  farmacológicas), de no tener resultados positivos, se incluyen los tratamientos farmacológicos entre otros.</h3></div>
+                    	
                         <div class="quote-info">
                         	<figure class="author-thumb img-circle"><img class="img-circle" src="images/resource/OMS-2.png" alt=""></figure>
-                            <h4>Adam Gilchrist</h4>
+                            <h4>OMS</h4>
                             <div class="designation">CEO / Founder</div>
                         </div>
+                        <div class="text-content"><h3 class="f-1">El tratamiento inicial recomendada tanto para Colitis como para estreñimiento, es mediante las medidas higiénico dietéticas (no  farmacológicas), de no tener resultados positivos, se incluyen los tratamientos farmacológicos entre otros.</h3></div>
                     </div>
                     <div class="slide-item">
                     	
                         <div class="quote-info">
                         	<figure class="author-thumb img-circle"><img class="img-circle" src="images/resource/sec-1.png" alt=""></figure>
-                            <h4>Adam Gilchrist</h4>
+                            <h4>Secretaría de Salud</h4>
                             <div class="designation">CEO / Founder</div>
                         </div>
                         <div class="text-content"><h3 class="f-1">De acuerdo con lo informado por la Secretaría de Salud (SSA) la recomendación diaria de ingesta de fibra es de 30 gramos, sin embargo, también reportó que los adultos en México</h3></div>
@@ -709,6 +719,7 @@
             </div>
         </div>
     </section>
+    <!-- / Testimoniales-->
     
     <!--MARCAS-->
     <section class="sponsors-style-one">
@@ -731,11 +742,10 @@
             </div>
         </div>
     </section>
+    <!-- / MARCAS-->   
     
     
-    
-    
-    <!--Main Footer / Footer Style One-->
+    <!--Footer-->
     <footer class="main-footer footer-style-one">
     	
         <!--Footer Upper-->        
@@ -761,34 +771,18 @@
                         <div class="footer-widget info-widget">
                         	<h2>Mantente Informado</h2>
                             <ul class="info">
-                            	<li>Address : 44 New Design Street, Down Town,  Melbourne 005</li>
-                                <li>Phone :  800 433 633 (or) 452 23 4354</li>
+                            	<li>Dirección : 44 New Design Street, Down Town,  Melbourne 005</li>
+                                <li>Teléfono :  800 433 633 (or) 452 23 4354</li>
                                 <li>Email : Stevan@Example.com</li>
                             </ul>
-                        </div>
-                    </div>
-                    
-                    
-                    <!--Footer Column-->
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 column">
-                    	<div class="footer-widget gallery-widget">
-                            <h2>Instagram Feed</h2>	
-                            <div class="clearfix">
-                                <figure class="image"><a href="images/resource/blog-image-4.jpg" class="lightbox-image" data-fancybox-group="fancybox" title="Caption Here"><img src="images/resource/footer-gallery-1.jpg" alt=""></a></figure>
-                                <figure class="image"><a href="images/resource/blog-image-5.jpg" class="lightbox-image" data-fancybox-group="fancybox" title="Caption Here"><img src="images/resource/footer-gallery-2.jpg" alt=""></a></figure>
-                                <figure class="image"><a href="images/resource/blog-image-6.jpg" class="lightbox-image" data-fancybox-group="fancybox" title="Caption Here"><img src="images/resource/footer-gallery-3.jpg" alt=""></a></figure>
-                                <figure class="image"><a href="images/resource/blog-image-7.jpg" class="lightbox-image" data-fancybox-group="fancybox" title="Caption Here"><img src="images/resource/footer-gallery-4.jpg" alt=""></a></figure>
-                                <figure class="image"><a href="images/resource/blog-image-8.jpg" class="lightbox-image" data-fancybox-group="fancybox" title="Caption Here"><img src="images/resource/footer-gallery-5.jpg" alt=""></a></figure>
-                                <figure class="image"><a href="images/resource/blog-image-9.jpg" class="lightbox-image" data-fancybox-group="fancybox" title="Caption Here"><img src="images/resource/footer-gallery-6.jpg" alt=""></a></figure>
-                            </div>
                         </div>
                     </div>
                     
                     <!--Footer Column-->
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 column padd-left-60">
                     	<div class="footer-widget links-widget">
-                        <h2>Featured links</h2>
-                        	<div class="row clearfix">
+                        <h2>Enlaces destacados</h2>
+                        	<!-- <div class="row clearfix">
                             	<div class="col-md-6 col-sm-6 col-xs-12">
                                     <ul>
                                         <li><a href="#">About</a></li>
@@ -804,18 +798,22 @@
                                         <li><a href="#">Our  Careere</a></li>
                                     </ul>
                                 </div>    
-                            </div>
+                            </div> -->
                             <br>
-                            <div class="social-links">
-                            	<h3>Siguenos!!!:</h3>
-                                <div class="links">
-                                    <a href="https://www.facebook.com/AlimentosBEA/"><span class="fa fa-facebook-official"></span></a>
+                            <div class="">
+                            	<h2>Siguenos!!!:</h2>
+                                <div class=" social-bar">
+                                    <!-- <a href="https://www.facebook.com/AlimentosBEA/"><span class="fa fa-facebook-official"></span></a>
                                     <a href="#"><span class="fa fa-twitter"></span></a>
                                     <a href="#"><span class="fa fa-google-plus"></span></a>
                                     <a href="#"><span class="fa fa-instagram"></span></a>
                                     <a href="#"><span class="fa fa-vimeo-square"></span></a>
                                     <a href="#"><span class="fa fa-youtube-play"></span></a>
-                                    <a href="#"><span class="fa fa-dropbox"></span></a>
+                                    <a href="#"><span class="fa fa-dropbox"></span></a> -->
+                                    <a href="" class="iconn icon-facebook" target="_blank"></a>
+                                    <a href="" class="iconn icon-twitter" target="_blank"></a>
+                                    <a href="" class="iconn icon-youtube" target="_blank"></a>
+                                    
                                 </div>
                                 
                             </div>
@@ -840,6 +838,7 @@
         </div>
         
     </footer>
+        <!-- / Footer-->
     
 </div>
 <!--End pagewrapper-->
