@@ -104,7 +104,7 @@ h1,h2,h3,h4,h5,h6 {
 	line-height:1.6em;
 }
 .fuente{
-    font-family: 'Comic Neue', cursive;
+    font-family: 'Roboto Slab', sans-serif;
 }
 input,button,select,textarea{
 	font-family: 'Roboto Slab', sans-serif;
@@ -1600,7 +1600,7 @@ img{
 	left:0px;
 	top:0px;
 	width:100%;
-	height:100%;
+	height:572px;;
 	/* background:rgba(94,199,156,0.94); */	
 	background:rgb(91, 94, 15, 0.80);
 }
