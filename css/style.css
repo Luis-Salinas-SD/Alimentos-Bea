@@ -112,7 +112,7 @@ input,button,select,textarea{
 .blanch{
   background-color: #ffffff;
   width:100%;
-  height: 100px;
+  height: 230px;
 }
 p{
 	position:relative;
@@ -1530,6 +1530,7 @@ img{
 	color:#ffffff;
 	background:url(../images/background/fondo-agave.png) center center repeat;
 	background-attachment:fixed;
+	height: 450px;
 }
 
 .fluid-section-one .oval-cut{
@@ -1600,7 +1601,7 @@ img{
 	left:0px;
 	top:0px;
 	width:100%;
-	height:572px;;
+	height:450px;;
 	/* background:rgba(94,199,156,0.94); */	
 	background:rgb(91, 94, 15, 0.80);
 }
@@ -1611,7 +1612,7 @@ img{
 	left:0px;
 	top:0px;
 	width:100%;
-	height:572px;
+	height:450px;
 	background:rgba(151, 189, 17,0.80);
 	
 }
