@@ -6003,7 +6003,8 @@ img{
 	padding:15px 15px;
 	width:50%;
 	font-weight:500;
-	text-transform:capitalize;
+	/* text-transform:capitalize */
+	text-align: center;
 }
 
 .checkout-page .orders-table .table-header .col,
@@ -6014,7 +6015,7 @@ img{
 }
 
 .checkout-page .orders-table li .col:last-child{
-	text-align:right;	
+	text-align:center;	
 }
 
 .checkout-page .orders-table .total{
