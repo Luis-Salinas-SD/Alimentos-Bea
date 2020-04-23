@@ -313,8 +313,8 @@ ul,li{
 
 img{
 	display:inline-block;
-	max-width: 420px;
-	height:auto;	
+	max-width: auto;
+	height:auto;
 }
 
 /*** 
@@ -1363,21 +1363,21 @@ img{
 
 .about-farm .column{
 	position:relative;
-	margin-bottom:30px;	
+	margin-bottom:30px;
 }
 
 .about-farm .image-box{
 	position:relative;
 	display:block;
-	text-align:center;	
+	text-align:center;
 }
 
 .about-farm .image-box img{
 	display:inline-block;
-	max-width:100%;	
+	max-width:100%;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Tabs Box
@@ -1638,11 +1638,11 @@ img{
 }
 
 .gallery-section .more-btn-outer{
-	padding-top:20px;	
+	padding-top:20px;
 }
 
 .gallery-section .sec-title-one{
-	margin-bottom:30px;	
+	margin-bottom:30px;
 }
 
 .gallery-section .filters{
@@ -1696,12 +1696,12 @@ img{
 }
 
 .default-food-item .inner-box:hover{
-	border-color:#5ec79c;	
+	border-color:#5ec79c;
 }
 
 .default-food-item .image-box{
 	position:relative;
-	display:block;	
+	display:block;
 }
 
 .default-food-item .image-box img{
@@ -1825,32 +1825,32 @@ img{
 	top:0px;
 	width:100%;
 	height:100%;
-	background:rgba(244,238,222,0.95);	
+	background:rgba(244,238,222,0.95);
 }
 
 .deal-of-day .auto-container{
 	position:relative;
-	z-index:1;	
+	z-index:1;
 }
 
 .deal-of-day .title-box{
 	position:relative;
 	margin-bottom:-160px;
-	z-index:2;	
+	z-index:2;
 }
 
 .deal-of-day .title-box h3{
 	color:#5ec79c;
 	font-weight:700;
 	font-family:'Roboto Slab',serif;
-	font-size:20px;	
+	font-size:20px;
 }
 
 .deal-of-day .title-box h2{
 	color:#f5b062;
 	font-weight:400;
 	font-size:64px;
-	line-height:1.4em;	
+	line-height:1.4em;
 }
 .known{
 	color:#ebd1b3;
@@ -1860,12 +1860,12 @@ img{
 }
 
 .deal-of-day .carousel-outer{
-	position:relative;	
+	position:relative;
 }
 
 .deal-of-day .carousel-outer .image-box{
 	display:block;
-	text-align:right;	
+	text-align:right;
 }
 
 .deal-of-day .carousel-outer .image-box img{
