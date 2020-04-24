@@ -106,6 +106,12 @@ h1,h2,h3,h4,h5,h6 {
 .fuente{
     font-family: 'Roboto Slab', sans-serif;
 }
+.fuente-title{
+
+
+    font-family: 'Bad Script', cursive;
+
+}
 input,button,select,textarea{
 	font-family: 'Roboto Slab', sans-serif;
 }
