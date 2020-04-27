@@ -6077,3 +6077,7 @@ ul.bullet > li{
 }
 
 
+.tab-perz{
+	width: 150px;
+	overflow: auto;
+}
