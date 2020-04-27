@@ -6012,11 +6012,11 @@ img{
 .checkout-page .orders-table .total .col{
 	padding:10px 15px;
 	font-size:13px;
-	border:none;	
+	border:none;
 }
 
 .checkout-page .orders-table li .col:last-child{
-	text-align:center;	
+	text-align:center;
 }
 
 .checkout-page .orders-table .total{
@@ -6025,7 +6025,7 @@ img{
 
 .checkout-page .proceed-btn{
 	display:block;
-	width:100%;	
+	width:100%;
 }
 
 .your-order .coupon-code .form-group{
@@ -6037,11 +6037,11 @@ img{
 
 .your-order .coupon-code .form-group .field-group{
 	display:table-cell;
-	vertical-align:middle;	
+	vertical-align:middle;
 }
 
 .your-order .coupon-code .form-group .btn-field{
-	padding-left:15px;	
+	padding-left:15px;
 }
 
 .your-order .coupon-code .form-group input{
@@ -6050,17 +6050,16 @@ img{
 	line-height:24px;
 	padding:10px 15px;
 	border:1px solid #e0e0e0;
-	border-radius:3px;	
+	border-radius:3px;
 }
 
 .your-order .coupon-code .form-group button{
 	display:block;
-	width:100%;	
+	width:100%;
 }
 /* Viñeta */
 ul.bullet > li{
 	list-style-image: url(../images/icons/planta-v.png);
-	
 }
 
 .just{
