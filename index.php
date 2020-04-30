@@ -1,25 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
-<title>Alimentos Funcionales BEA</title>
-<!-- Stylesheets -->
-<link href="css/bootstrap.css" rel="stylesheet">
-<link href="css/revolution-slider.css" rel="stylesheet">
-<link href="css/style.css" rel="stylesheet">
-<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-<link rel="icon" href="images/favicon.ico" type="image/x-icon">
-<!-- Responsive -->
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-<link href="css/responsive.css" rel="stylesheet">
-<!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
-<!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
-<!-- Social-icons -->
-<link rel="stylesheet" href="social-icon/style-icons.css">
-<!-- Fuente de los Titulos (fontsize) -->
-<link href="https://fonts.googleapis.com/css2?family=Bad+Script&display=swap" rel="stylesheet">
-
+<?php include ('includes/head_index.php'); ?>
 </head>
 
 <body>
@@ -31,47 +13,7 @@
 
     <!-- Menu principal-->
     <header class="main-header">
-
-        <!-- Main Box -->
-    	<div class="main-box">
-        	<div class="auto-container">
-            	<div class="outer-container clearfix">
-                    <!--Logo Alimentos BEA-->
-                    <div class="logo-box">
-                        <div class="logo"><a href="index.html"><img src="images/logo-bea.jpg" alt=""></a></div>
-                    </div>
-
-                    <!--Nav Outer-->
-                    <div class="nav-outer clearfix">
-                        <!-- Main Menu -->
-                        <nav class="main-menu">
-                            <div class="navbar-header">
-                                <!-- Toggle Button -->
-                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                </button>
-                            </div>
-
-                            <div class="navbar-collapse collapse clearfix">
-                                <ul class="navigation clearfix">
-                                    <li><a href="#">Inicio</a></li>
-                                    <li><a href="#logros">Nosotros</a></li>
-                                    <li><a href="#productos">Productos</a></li>
-                                    <li><a href="blog.html">Blog</a>
-                                    </li>
-                                 </ul>
-                            </div>
-                        </nav><!-- Main Menu End-->
-                    </div><!--Nav Outer End-->
-                    <!-- Hidden Nav Toggler -->
-                    <div class="nav-toggler">
-                    <button class="hidden-bar-opener"><span class="icon fa fa-bars"></span></button>
-                    </div><!-- / Hidden Nav Toggler -->
-            	</div>
-            </div>
-        </div>
+        <?php include("includes/header_index.php"); ?>
     </header>
     <!--/ Menu principal-->
 
@@ -134,8 +76,8 @@
             <div class="tp-banner">
                 <ul>
 
-                    <li data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-thumb="images/main-slider/banner-1.png"  data-saveperformance="off"  data-title="Alimentos-BEA-1">
-                    <img src="images/main-slider/banner-1.png"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat"> 
+                    <li data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-thumb="images/main-slider/banner-1.png"  data-saveperformance="off"  data-title="Alimentos-BEA">
+                    <img src="images/main-slider/banner-1.png"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
 
                     <div class="tp-caption sfl sfb tp-resizeme"
                     data-x="center" data-hoffset="0"
@@ -148,7 +90,7 @@
                     data-elementdelay="0.01"
                     data-endelementdelay="0.3"
                     data-endspeed="1200"
-                    data-endeasing="Power4.easeIn"><h3 class="text-center fuente-title">Conoce nuestros alimentos <br> 100% funcionales.</h3></div>
+                    data-endeasing="Power4.easeIn"><h3 class="text-center fuente-title"><strong>Conoce nuestros alimentos <br> 100% funcionales.</strong></h3></div>
 
                     <div class="tp-caption sfr sfb tp-resizeme"
                     data-x="center" data-hoffset="0"
@@ -178,7 +120,7 @@
 
                     </li>
                      <!-- Slider - Principal-->
-                    <li data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-thumb="images/main-slider/banner-2.png"  data-saveperformance="off"  data-title="Alimentos-BEA-2">
+                    <li data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-thumb="images/main-slider/banner-2.png"  data-saveperformance="off"  data-title="Alimentos-BEA">
                     <img src="images/main-slider/banner-2.png"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
 
                     <div class="tp-caption sfl sfb tp-resizeme"
@@ -205,7 +147,7 @@
                     data-elementdelay="0.01"
                     data-endelementdelay="0.3"
                     data-endspeed="1200"
-                    data-endeasing="Power4.easeIn"><h3 class=" centro">Alimentos BEA preocupados <br>por mejorar tu salud.</h3></div>
+                    data-endeasing="Power4.easeIn"><h3 class="centro fuente-title"><strong>Alimentos BEA preocupados <br>por mejorar tu salud.</strong></h3></div>
 
                     <div class="tp-caption sfl sfb tp-resizeme"
                     data-x="left" data-hoffset="15"
@@ -249,7 +191,7 @@
                     data-elementdelay="0.01"
                     data-endelementdelay="0.3"
                     data-endspeed="1200"
-                    data-endeasing="Power4.easeIn"><h3 class="text-center">Conoce los beneficios naturales de la fibra de agave.</h3></div>
+                    data-endeasing="Power4.easeIn"><h3 class="text-center fuente-title"><strong>Conoce los beneficios naturales de la fibra de agave.</strong></h3></div>
 
                     <div class="tp-caption sfb sfb tp-resizeme"
                     data-x="center" data-hoffset="0"
@@ -281,24 +223,20 @@
                 	<div class="inner-box">
                         <!--Section Title-->
                         <div class="sec-title-one">
-                            <h2 class="">Bienvenido a Alimentos Funcionales BEA.</h2>
+                            <h2 class="fuente-title"><strong>Bienvenido a Alimentos Funcionales BEA.</strong></h2>
                         </div>
 
                         <div class="row clearfix">
                             <!--Content Column-->
                             <div class="content-column col-md-6 col-sm-6 col-xs-12">
                                 <div class="inner text-left wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                                    <h3></h3>
-                                    <div class="text">Somos una empresa mexicana enfocada a diseñar, producir y comercializar 
-                                        productos alimenticios de base científico-tecnológico, generando calidad de vida 
-                                        en nuestros consumidores.
+                                    <div class="text">Somos una empresa mexicana enfocada a diseñar, producir y comercializar productos alimenticios de base científico-tecnológico, generando calidad de vida en nuestros consumidores.
                                     </div>
                                 </div>
                             </div>
                             <!--Content Column-->
                             <div class="content-column col-md-6 col-sm-6 col-xs-12">
                                 <div class="inner text-right wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
-                                    <h3></h3>
                                     <div class="text">Creamos alimentos de base científico-tecnológico, aportando calidad de vida a nuestros consumidores y confianza en nuestros grupos de interés. </div>
                                 </div>
                             </div>
@@ -315,7 +253,7 @@
         <div class="auto-container">
             <!--Section Title-->
             <div class="sec-title-two">
-                <h2 class="">Nuestros Logros</h2>
+                <h2 class="fuente-title"><strong>Nuestros Logros</strong></h2>
             </div>
 
             <div class="row clearfix">
@@ -450,14 +388,13 @@
                     	<div class="row clearfix">
                         	<!--Image Column-->
                             <div class="image-column col-md-8 col-sm-7 col-xs-12">
-                            	<figure class="image-box"><a href="images/resource/food-image-4.png" class="lightbox-image"><img src="images/products/geli-2.png" alt=""></a></figure>
+                            	<figure class="image-box"><a href="images/products/geli-2.png" class="lightbox-image"><img src="images/products/geli-2.png" alt=""></a></figure>
                             </div>
                             <!--Content Column-->
                             <div class="content-column col-md-4 col-sm-5 col-xs-12">
                             	<div class="inner title-box">
                                     <h2>Gelyfun</h2>
-<!--                                     <div class="prod-title">Gelyfun®</div>
- -->                                    <div class="price">MXN: $680</div>
+                                   <div class="price">MXN: $680</div>
                                     <div class="text">Es una gelatina en polvo que se comercializa en cajas con 6 bolsas (2 meses de consumo) de varios sabores: Limón, Piña, Fresa, Uva y Arándano</div>
                                     <div class="options clearfix">
                                         <a href="shop.html" class="theme-btn normal-btn"><span class="flaticon-shopping-bag"></span></a>
@@ -474,7 +411,7 @@
                     	<div class="row clearfix">
                         	<!--Image Column-->
                             <div class="image-column col-md-8 col-sm-7 col-xs-12">
-                            	<figure class="image-box"><a href="images/resource/food-image-4.png" class="lightbox-image"><img src="images/products/aga-2.png" alt=""></a></figure>
+                            	<figure class="image-box"><a href="images/products/aga-2.png" class="lightbox-image"><img src="images/products/aga-2.png" alt=""></a></figure>
                             </div>
                             <!--Content Column-->
                             <div class="content-column col-md-4 col-sm-5 col-xs-12">
@@ -504,7 +441,7 @@
     	<div class="auto-container">
         	<!--Section Title-->
             <div class="sec-title-one">
-                <h2 class="">Recomendaciones</h2>
+                <h2 class="fuente-title"><strong>Nosotros</strong></h2>
             </div>
 
         	<div class="row clearfix">
@@ -667,7 +604,7 @@
     	<div class="auto-container">
         	<!--Section Title-->
             <div class="sec-title-one">
-                <h2 class="">Nos Respaldan</h2>
+                <h2 class="fuente-title"><strong>Nos Respaldan</strong></h2>
             </div>
 
     		<div class="sponsors-outer">
@@ -687,63 +624,7 @@
 
     <!--Footer-->
     <footer class="main-footer footer-style-one">
-
-        <!--Footer Upper-->
-        <div class="footer-upper">
-            <div class="auto-container">
-                <div class="row clearfix">
-
-                    <!--Footer Column-->
-                	<div class="col-lg-5 col-md-3 col-sm-6 col-xs-12 column">
-                         <div class="footer-widget about-widget">
-                            <figure class="footer-logo"><a href="index.html"><img src="images/logo-bea.jpg" alt=""></a></figure>
-
-                            <div class="text just">
-                            	<p>Somos una empresa mexicana enfocada a diseñar, producir y comercializar productos alimenticios de base científico-tecnológico, generando calidad de vida en nuestros consumidores.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--Footer Column-->
-                    <div class="col-lg-5 col-md-3 col-sm-6 col-xs-12 column">
-                        <div class="footer-widget info-widget">
-                        	<h2>Mantente Informado</h2>
-                            <ul class="info">
-                            	<li>Dirección : 44 New Design Street, Down Town,  Melbourne 005</li>
-                                <li>Teléfono :  800 433 633 (or) 452 23 4354</li>
-                                <li>Email : Stevan@Example.com</li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <!--Footer Column-->
-                    <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 column padd-left-60">
-                    	<div class="footer-widget links-widget">
-                            <div class="social-links">
-                            	<h2>Siguenos!!!</h2>
-                                <div class="links">
-                                    <a href="https://www.facebook.com/AlimentosBEA/"><span class="fa fa-facebook-official"></span></a>
-                                    <a href="#"><span class="fa fa-twitter"></span></a>
-                                    <a href="#"><span class="fa fa-instagram"></span></a>
-                                    <a href="#"><span class="fa fa-youtube-play"></span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!--Footer Bottom-->
-    	<div class="footer-bottom">
-            <div class="auto-container">
-
-                <!--Copyright-->
-                <div class="copyright">Copyrights &copy; Alimentos BEA. Todos los Derechos Reservados.</div>
-
-            </div>
-        </div>
-
+        <?php include("includes/footer_index.php"); ?>
     </footer>
     <!-- / Footer-->
 
@@ -753,21 +634,7 @@
 <!--Scroll to top-->
 <div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-long-arrow-up"></span></div>
 
-<script src="js/jquery.js"></script> 
-<script src="js/bootstrap.min.js"></script>
-<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-<script src="js/revolution.min.js"></script>
-<script src="js/jquery.fancybox.pack.js"></script>
-<script src="js/jquery.fancybox-media.js"></script>
-<script src="js/mixitup.js"></script>
-<script src="js/owl.js"></script>
-<script src="js/wow.js"></script>
-<script src="js/script.js"></script>
-
-<!--Google Map APi Key-->
-<script src="http://maps.google.com/maps/api/js?key="></script>
-<script src="js/map-script.js"></script>
-<!--End Google Map APi-->
+<?php include("includes/scripts_index.php"); ?>
 
 </body>
 </html>
