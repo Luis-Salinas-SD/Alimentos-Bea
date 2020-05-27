@@ -4338,9 +4338,10 @@ img{
 	position:relative;
 	padding:15px 20px;
 	border-left:5px solid #5ec79c;
-	font-family: 'Grand Hotel', cursive;
+	/*font-family: 'Grand Hotel', cursive;*/
+	font-family: 'Slabo 27px', serif;
 	background:none;
-	font-size:24px;
+	font-size:20px;
 	line-height:1.3em;
 	color:#333333;
 	margin-bottom:20px;	
