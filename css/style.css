@@ -135,6 +135,7 @@ p{
 	max-width:1200px;
 	padding:0px 15px;
 	margin:0 auto;
+/* 	left: 220px; */
 }
 
 .medium-container{
@@ -5025,7 +5026,7 @@ img{
 
 .shop-single .product-details{
 	position:relative;
-	padding:120px 0px 70px;	
+	padding:120px 0px 0px;	
 }
 
 .product-details .basic-details{
